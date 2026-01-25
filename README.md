@@ -1,4 +1,4 @@
-# test-numa-navi
+# NumaNavi (沼ナビ)
 
 個人開発アプリサンプル - サブカル作品レコメンドWebアプリ
 
@@ -8,10 +8,10 @@
 
 ## 技術スタック
 
-- **Frontend**: Next.js 16 (App Router), TypeScript, Tailwind CSS
-- **UI Components**: shadcn/ui
-- **Backend/Database**: Supabase
-- **Hosting**: Vercel
+- **フロントエンド**: Next.js 16 (App Router), TypeScript, Tailwind CSS
+- **UIコンポーネント**: shadcn/ui
+- **バックエンド/データベース**: Supabase
+- **ホスティング**: Vercel
 
 ## セットアップ
 
@@ -31,8 +31,9 @@ npm install
 `.env.local`ファイルを作成し、以下の環境変数を設定してください:
 
 ```bash
-NEXT_PUBLIC_SUPABASE_URL=your-project-url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+NEXT_PUBLIC_SUPABASE_URL=あなたのSupabaseプロジェクトURL
+NEXT_PUBLIC_SUPABASE_ANON_KEY=あなたのAnonキー
+GOOGLE_GENERATIVE_AI_API_KEY=あなたのGemini APIキー
 ```
 
 ### 開発サーバーの起動
@@ -52,8 +53,7 @@ npm run build
 ## デプロイ
 
 このプロジェクトは [Vercel Platform](https://vercel.com) へのデプロイを想定しています。
-
-詳細は [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) を参照してください。
+詳細は [Next.js デプロイメントドキュメント](https://nextjs.org/docs/app/building-your-application/deploying) を参照してください。
 
 ## ライセンス
 
